@@ -1,0 +1,113 @@
+.menubar{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 80%;
+}
+.menu-item{
+    width: 90%;
+    margin-top: 20px;
+}
+.menu-item a{
+    padding: 20px;
+    line-height: 100px;
+    text-decoration: none;
+    color: orange;
+    font-size: 30px;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+.banner img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:100%;
+}
+.about{
+    display: flex;
+}
+.about-image{
+    width: 1000px;
+    margin: 0 auto;
+}
+.about-text{
+    width: 1000px;
+    margin: 0 auto;
+}
+.about-image img{
+    width: 60%;
+    margin-left: 80px;
+}
+.about-text p{
+    line-height: 25px;
+    font-size: large;
+    font-family: cursive;
+}
+.about-text h2{
+    font-family: cursive;
+}
+.gallery{
+    background-color: rgb(236, 180, 26);
+    display: flex;
+}
+.gallery-item{
+    width: 25%;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.gallery-item img{
+    width: 100%;
+}
+.map{
+    margin-top: 80px;
+    text-align: center;
+    font-family: cursive;
+    background-color: rgba(241, 184, 79, 0.979);
+}
+.yt{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    background-color: orange;
+    text-align: center;
+}
+.yt .yt-bulb{
+    width: 50%;
+    height: 350px;
+    margin-right: 20px;
+}
+.yt .yt-fb{
+    width: 50%;
+    height: 350px;
+}
+.contact{
+    background-color: rgb(236, 180, 26);
+    margin-top: 80px;
+}
+.contact img{
+    height: 80px;
+}
+.oh{
+    width: 1000px;
+    margin: 0 auto;
+}
+.contact a{
+    font-size: 25px;
+    line-height: 50px;
+    text-decoration: none;
+    font-family: cursive;
+}
+.contact .phone{
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.contact .mail{
+    margin-left: 200px;
+    margin-right: 50px;
+}
